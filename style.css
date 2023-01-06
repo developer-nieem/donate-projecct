@@ -85,3 +85,59 @@
 .donate-info3{
     background: rgb(215, 215, 173);
 }
+
+/* donate plan css end */
+.donate-blog{
+    display: flex;
+    width: 70%;
+    margin: 70px auto;
+    gap: 30px;
+}
+.blog-content{
+    width: 50%;
+    padding-right: 60px;
+}
+.blog-content h2{
+    font-size: 36px;
+}
+.blog-image {
+width: 50%;
+}
+.blog-image img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.blog-content2{
+    padding-left: 60px;
+}
+
+/* blog section end */
+
+.subscribe-user{
+    text-align: center;
+    margin-top: 70px;
+}
+.subscribe-form {
+    padding: 40px;
+    background-color: rgb(226, 239, 169);
+    width: 40%;
+    margin: 100px auto;
+}
+.subscribe-user h2{
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+.subscribe-form input{
+    padding: 10px;
+    outline: 0;
+    width: 40%;
+    border: 0;
+    background-color: rgb(247, 248, 248);
+}
+
+.subscribe-form button{
+    border-radius:0 3px 3px 0px;
+    margin-left:-30px ;
+}
