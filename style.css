@@ -59,3 +59,29 @@
     color: rgb(58, 59, 59);
     padding-bottom: 20px;
 }
+
+/* donate now css end */
+.donate-plan{
+    text-align: center;
+    margin-top: 70px;
+    width: 70%;
+    margin: auto;
+
+}
+.donate-feature{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    text-align: left;
+}
+.donate-info{
+    padding: 20px;
+    background-color: rgb(241, 239, 239);
+    border-radius: 3px;
+}
+.donate-info h2{
+    padding: 20px 0;
+}
+.donate-info3{
+    background: rgb(215, 215, 173);
+}
