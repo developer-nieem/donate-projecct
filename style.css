@@ -63,9 +63,10 @@
 /* donate now css end */
 .donate-plan{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 120px;
     width: 70%;
     margin: auto;
+    padding-top: 60px;
 
 }
 .donate-feature{
@@ -116,7 +117,7 @@ width: 50%;
 
 .subscribe-user{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .subscribe-form {
     padding: 40px;
@@ -140,4 +141,19 @@ width: 50%;
 .subscribe-form button{
     border-radius:0 3px 3px 0px;
     margin-left:-30px ;
+}
+
+footer{
+    background-color: #000;
+    padding: 40px 0;
+    text-align: center;
+}
+footer > h2{
+   color: rgb(182, 198, 35);
+   font-weight: 800;
+   font-size: 40px;
+}
+footer > p{
+    color: #fff;
+    padding-top: 20px;
 }
