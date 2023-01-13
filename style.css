@@ -31,6 +31,10 @@
     padding-bottom: 10px;
 }
 
+.header-content p{
+    width: 550px;
+    margin: 0 auto;
+}
 
 /* donate now css start */
 
@@ -88,6 +92,7 @@
 }
 
 /* donate plan css end */
+
 .donate-blog{
     display: flex;
     width: 70%;
@@ -113,6 +118,9 @@ width: 50%;
     padding-left: 60px;
 }
 
+.desktop-hide{
+    display: none;
+}
 /* blog section end */
 
 .subscribe-user{
@@ -160,3 +168,67 @@ footer > p{
 
 
 /* Mobile CSS start Here */
+
+@media screen and (max-width:576px){
+    .header-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header-content h2{
+        font-size: 30px;
+    }
+    .header-content p{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    /* Mobile header part end */
+
+    .donate-price-main{
+        flex-direction: column;
+    }
+
+    /* Mobile donate now css end */
+    .donate-feature{
+        flex-direction: column;
+    }
+
+    /* Mobile donate plan css end */ 
+    .blogs{
+        padding: 0 20px;
+    }
+    .donate-blog{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .blog-content, .blog-image{
+        width: 100%;
+        padding: 0;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+
+    /* Mobile blogs css end */
+
+    .subscribe-form{
+        text-align: center;
+    }
+    .subscribe-form input{
+        width: 100%;
+    }
+
+    .subscribe-form button{
+        width: 100%;
+        margin-left: 10px ;
+        padding: 10px;
+        border-radius: 3px;
+    }
+}
+
+/* Mobile responsive css end */
